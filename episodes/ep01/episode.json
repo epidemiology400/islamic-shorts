@@ -1,0 +1,504 @@
+{
+ "slug": "ep01_last_third",
+ "title": "ساعةٌ يغفُل عنها أكثرُ الناس… كلَّ ليلة",
+ "duration": 67.95,
+ "audio": {
+  "file": "vo_master.wav",
+  "voice_id": "75JSsQU5gqeYrT6IVFDv",
+  "ambience": [],
+  "credit": "التعليق الصوتي: مولّد بـ ElevenLabs (صوت Allan – Deep Arabic Narrator)"
+ },
+ "fonts": {
+  "narration": [
+   "Tajawal",
+   "Cairo"
+  ],
+  "hadith": [
+   "Amiri"
+  ],
+  "quran": [
+   "Amiri Quran",
+   "Amiri"
+  ]
+ },
+ "style": {
+  "accent": "#D4A64A",
+  "size": 68,
+  "size_hadith": 86,
+  "size_quran": 96,
+  "margin_bottom": 560
+ },
+ "fade_out": 1.0,
+ "cues": [
+  {
+   "start": 0.16,
+   "end": 1.66,
+   "text": "في كلِّ ليلة…"
+  },
+  {
+   "start": 1.7,
+   "end": 4.86,
+   "text": "ساعةٌ يغفُل عنها أكثرُ الناس",
+   "highlight": [
+    "ساعةٌ"
+   ]
+  },
+  {
+   "start": 4.9,
+   "end": 6.68,
+   "text": "حين ينامُ الجميع…"
+  },
+  {
+   "start": 6.72,
+   "end": 8.56,
+   "text": "ويهدأُ كلُّ شيء…"
+  },
+  {
+   "start": 8.6,
+   "end": 10.98,
+   "text": "ويبقى ثلثُ الليلِ الأخير…",
+   "highlight": [
+    "ثلثُ الليلِ الأخير"
+   ]
+  },
+  {
+   "start": 11.02,
+   "end": 13.66,
+   "text": "أخبرنا النبيُّ ﷺ",
+   "spoken": "أخبرنا النبي صلى الله عليه وسلم"
+  },
+  {
+   "start": 13.7,
+   "end": 16.81,
+   "text": "بما يكون في تلك الساعة، فقال:"
+  },
+  {
+   "start": 16.85,
+   "end": 21.51,
+   "text": "«يَنْزِلُ رَبُّنَا تَبَارَكَ وَتَعَالَى\nكُلَّ لَيْلَةٍ إِلَى السَّمَاءِ الدُّنْيَا،",
+   "style": "hadith"
+  },
+  {
+   "start": 21.55,
+   "end": 23.76,
+   "text": "حِينَ يَبْقَى ثُلُثُ اللَّيْلِ الْآخِرُ،",
+   "style": "hadith"
+  },
+  {
+   "start": 23.8,
+   "end": 26.98,
+   "text": "يَقُولُ: مَنْ يَدْعُونِي\nفَأَسْتَجِيبَ لَهُ؟",
+   "style": "hadith",
+   "highlight": [
+    "فَأَسْتَجِيبَ لَهُ"
+   ]
+  },
+  {
+   "start": 27.02,
+   "end": 28.98,
+   "text": "مَنْ يَسْأَلُنِي فَأُعْطِيَهُ؟",
+   "style": "hadith",
+   "highlight": [
+    "فَأُعْطِيَهُ"
+   ]
+  },
+  {
+   "start": 29.02,
+   "end": 32.2,
+   "text": "مَنْ يَسْتَغْفِرُنِي فَأَغْفِرَ لَهُ؟»",
+   "style": "hadith",
+   "highlight": [
+    "فَأَغْفِرَ لَهُ"
+   ]
+  },
+  {
+   "start": 32.42,
+   "end": 34.7,
+   "text": "متفقٌ عليه\nالبخاري (1145) · مسلم (758)",
+   "ref_second_line": true,
+   "spoken": "متفق عليه"
+  },
+  {
+   "start": 34.75,
+   "end": 36.38,
+   "text": "همٌّ أثقلَ صدرَك؟",
+   "highlight": [
+    "همٌّ"
+   ]
+  },
+  {
+   "start": 36.42,
+   "end": 38.76,
+   "text": "حاجةٌ لم تُخبر بها أحداً؟",
+   "highlight": [
+    "حاجةٌ"
+   ]
+  },
+  {
+   "start": 38.8,
+   "end": 40.6,
+   "text": "ذنبٌ تخجلُ منه؟",
+   "highlight": [
+    "ذنبٌ"
+   ]
+  },
+  {
+   "start": 40.64,
+   "end": 45.06,
+   "text": "من يدعوني… من يسألني…\nمن يستغفرني…"
+  },
+  {
+   "start": 45.1,
+   "end": 46.74,
+   "text": "وقال اللهُ تعالى:"
+  },
+  {
+   "start": 46.78,
+   "end": 50.48,
+   "text": "﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي\nفَإِنِّي قَرِيبٌ ۖ",
+   "style": "quran"
+  },
+  {
+   "start": 50.52,
+   "end": 54.02,
+   "text": "أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ﴾\n[البقرة: 186]",
+   "style": "quran",
+   "ref_second_line": true,
+   "spoken": "أجيب دعوة الداع إذا دعان"
+  },
+  {
+   "start": 55.0,
+   "end": 56.58,
+   "text": "الليلة… قبل أن تنام…",
+   "highlight": [
+    "الليلة"
+   ]
+  },
+  {
+   "start": 56.62,
+   "end": 58.82,
+   "text": "اضبط منبّهك على الثلث الأخير",
+   "highlight": [
+    "الثلث الأخير"
+   ]
+  },
+  {
+   "start": 58.86,
+   "end": 62.16,
+   "text": "واكتب حاجتك…\nثم قُم وادعُ ربَّك",
+   "highlight": [
+    "حاجتك"
+   ]
+  },
+  {
+   "start": 62.2,
+   "end": 67.0,
+   "text": "وأرسلها لمن تحب…\nلعلّه يقومُ معك"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "at": 0,
+   "desc": "نجوم تايم لابس فوق صحراء/جبل",
+   "query": "starry night sky timelapse",
+   "look": "night",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.07
+   },
+   "alt_queries": [
+    "milky way",
+    "stars night"
+   ]
+  },
+  {
+   "id": "s02",
+   "at": {
+    "cue": 3
+   },
+   "desc": "مدينة ليلاً من الجو",
+   "query": "city night aerial",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "city lights night"
+   ]
+  },
+  {
+   "id": "s03",
+   "at": {
+    "cue": 4
+   },
+   "desc": "نافذة مظلمة وستارة تتحرك",
+   "query": "curtain window night",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "curtain wind"
+   ]
+  },
+  {
+   "id": "s04",
+   "at": {
+    "cue": 6
+   },
+   "desc": "مئذنة تحت القمر",
+   "query": "minaret night",
+   "look": "night",
+   "transition": "dissolve",
+   "alt_queries": [
+    "mosque night moon"
+   ]
+  },
+  {
+   "id": "s05",
+   "at": {
+    "cue": 7
+   },
+   "desc": "قبة مسجد ليلاً",
+   "query": "mosque dome night",
+   "look": "night",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05,
+    "dir": "out"
+   },
+   "alt_queries": [
+    "mosque night"
+   ]
+  },
+  {
+   "id": "s06",
+   "at": {
+    "cue": 8
+   },
+   "desc": "قمر وغيوم عابرة",
+   "query": "moon clouds",
+   "look": "night",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   },
+   "alt_queries": [
+    "full moon night"
+   ]
+  },
+  {
+   "id": "s07",
+   "at": {
+    "cue": 9
+   },
+   "desc": "سماء ليلية صافية",
+   "query": "night sky stars",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "stars"
+   ]
+  },
+  {
+   "id": "s08",
+   "at": {
+    "cue": 10
+   },
+   "desc": "مصلٍّ من الخلف في غرفة خافتة",
+   "query": "muslim prayer",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "praying man",
+    "prayer rug man"
+   ]
+  },
+  {
+   "id": "s09",
+   "at": {
+    "cue": 11
+   },
+   "desc": "يدان مرفوعتان بالدعاء (سيلويت)",
+   "query": "praying hands",
+   "look": "night",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   },
+   "alt_queries": [
+    "dua hands",
+    "prayer hands"
+   ]
+  },
+  {
+   "id": "s10",
+   "at": {
+    "cue": 13
+   },
+   "desc": "قنديل مسجد خافت",
+   "query": "mosque lamp",
+   "look": "night",
+   "transition": "dissolve",
+   "alt_queries": [
+    "lantern night",
+    "islamic lantern"
+   ]
+  },
+  {
+   "id": "s11",
+   "at": {
+    "cue": 14
+   },
+   "desc": "مطر على زجاج نافذة ليلاً",
+   "query": "rain window night",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "rain glass"
+   ]
+  },
+  {
+   "id": "s12",
+   "at": {
+    "cue": 15
+   },
+   "desc": "شخص من الخلف أمام نافذة",
+   "query": "man looking out window night",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "silhouette window"
+   ]
+  },
+  {
+   "id": "s13",
+   "at": {
+    "cue": 16
+   },
+   "desc": "يد تمسح البخار عن الزجاج",
+   "query": "foggy window",
+   "look": "night",
+   "transition": "cut",
+   "alt_queries": [
+    "condensation glass"
+   ]
+  },
+  {
+   "id": "s14",
+   "at": {
+    "cue": 17
+   },
+   "desc": "تايم لابس نجوم، الكاميرا تتراجع",
+   "query": "star trails timelapse",
+   "look": "night",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.08,
+    "dir": "out"
+   },
+   "alt_queries": [
+    "night sky timelapse"
+   ]
+  },
+  {
+   "id": "s15",
+   "at": {
+    "cue": 18
+   },
+   "desc": "الساعة الزرقاء قبل الفجر فوق البحر",
+   "query": "blue hour sea",
+   "look": "twilight",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   },
+   "alt_queries": [
+    "dawn sea",
+    "before sunrise"
+   ]
+  },
+  {
+   "id": "s16",
+   "at": {
+    "cue": 20
+   },
+   "desc": "أول ضوء الفجر",
+   "query": "sunrise horizon timelapse",
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   },
+   "alt_queries": [
+    "dawn timelapse"
+   ]
+  },
+  {
+   "id": "s17",
+   "at": {
+    "cue": 21
+   },
+   "desc": "يد تطفئ مصباح السرير",
+   "query": "turning off lamp",
+   "look": "dawn",
+   "transition": "cut",
+   "alt_queries": [
+    "bedside lamp"
+   ]
+  },
+  {
+   "id": "s18",
+   "at": {
+    "cue": 22
+   },
+   "desc": "يدان تضبطان منبّه الهاتف",
+   "query": "alarm clock phone",
+   "look": "dawn",
+   "transition": "cut",
+   "alt_queries": [
+    "smartphone alarm"
+   ]
+  },
+  {
+   "id": "s19",
+   "at": {
+    "cue": 23
+   },
+   "desc": "يد تكتب في دفتر",
+   "query": "writing notebook",
+   "look": "dawn",
+   "transition": "cut",
+   "alt_queries": [
+    "handwriting journal"
+   ]
+  },
+  {
+   "id": "s20",
+   "at": {
+    "cue": 23,
+    "offset": 1.3
+   },
+   "desc": "سجادة صلاة",
+   "query": "prayer rug",
+   "look": "dawn",
+   "transition": "cut",
+   "alt_queries": [
+    "prayer mat"
+   ]
+  },
+  {
+   "id": "s21",
+   "at": {
+    "cue": 24
+   },
+   "desc": "شروق ذهبي خلف قبة ومئذنة",
+   "query": "mosque sunrise",
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.05
+   },
+   "alt_queries": [
+    "mosque silhouette sunset"
+   ]
+  }
+ ]
+}

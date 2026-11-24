@@ -1,0 +1,7 @@
+cache/
+episodes/*/build/
+episodes/*/out/
+*.env
+.env*
+secrets*
+__pycache__/
