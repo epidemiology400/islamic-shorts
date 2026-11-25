@@ -1,0 +1,548 @@
+{
+ "slug": "ep02_two_words",
+ "title": "كلمتان خفيفتان… ثقيلتان في الميزان",
+ "duration": 66.0,
+ "audio": {
+  "from_tts": true,
+  "voice_id": "75JSsQU5gqeYrT6IVFDv",
+  "model_id": "eleven_v3",
+  "ambience": [],
+  "credit": "التعليق الصوتي: مولّد بـ ElevenLabs (صوت Allan – Deep Arabic Narrator)",
+  "script": "تَبْحَثُ عَنْ عَمَلِنْ يَسِيرْ… ثَقِيلِنْ فِي مِيزَانِكْ؟\nلَا يَحْتَاجُ مَالَا… وَلَا سَفَرَا… وَلَا وَقْتَنْ طَوِيلَا.\nتَقُولُهُ وَأَنْتَ تَمْشِي… أَوْ تَنْتَظِرْ… أَوْ قَبْلَ أَنْ تَنَامْ.\nقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:\nكَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ، ثَقِيلَتَانِ فِي الْمِيزَانِ، حَبِيبَتَانِ إِلَى الرَّحْمَنِ: سُبْحَانَ اللَّهِ الْعَظِيمِ، سُبْحَانَ اللَّهِ وَبِحَمْدِهِ.\nمُتَّفَقُنْ عَلَيْهِ.\nثَلَاثُ صِفَاتْ… تَأَمَّلْهَا.\nخَفِيفَتَانِ… لَا تُتْعِبَانِ لِسَانَكْ.\nثَقِيلَتَانِ… فِي مِيزَانِكَ يَوْمَ الْقِيَامَةْ.\nحَبِيبَتَانِ… إِلَى الرَّحْمَنْ.\nفَمَا أَعْظَمَ أَنْ يُحِبَّ اللَّهُ مَا تَقُولْ!\nسُبْحَانَ اللَّهِ: تَنْزِيهُهُ عَنْ كُلِّ نَقْصْ.\nوَبِحَمْدِهِ: الثَّنَاءُ عَلَيْهِ بِكَمَالِهْ.\nوَقَالَ اللَّهُ تَعَالَى:\nالَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُمْ بِذِكْرِ اللَّهِ، أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبْ.\nفِي زَحْمَةِ يَوْمِكْ… فِي قَلَقِكْ… فِي انْتِظَارِكْ…\nاجْعَلْهُمَا عَلَى لِسَانِكْ.\nالْآنْ… قَبْلَ أَنْ تُغْلِقَ هَذَا الْمَقْطَعْ…\nقُلْهُمَا مَعِي:\nسُبْحَانَ اللَّهِ الْعَظِيمْ… سُبْحَانَ اللَّهِ وَبِحَمْدِهْ.\nوَأَرْسِلْهَا لِمَنْ تُحِبّْ… لَعَلَّهُ يَقُولُهُمَا مَعَكْ."
+ },
+ "fonts": {
+  "narration": [
+   "Tajawal",
+   "Cairo"
+  ],
+  "hadith": [
+   "Amiri"
+  ],
+  "quran": [
+   "Amiri Quran",
+   "Amiri"
+  ]
+ },
+ "style": {
+  "accent": "#D4A64A",
+  "size": 68,
+  "size_hadith": 86,
+  "size_quran": 96,
+  "margin_bottom": 560
+ },
+ "fade_out": 1.0,
+ "cues": [
+  {
+   "start": 0.238,
+   "end": 2.051,
+   "text": "تبحثُ عن عملٍ يسير…",
+   "highlight": [
+    "عملٍ يسير"
+   ],
+   "spoken": "تبحث عن عملن يسير"
+  },
+  {
+   "start": 2.408,
+   "end": 3.887,
+   "text": "ثقيلٍ في ميزانك؟",
+   "highlight": [
+    "ثقيلٍ"
+   ],
+   "spoken": "ثقيلن في ميزانك"
+  },
+  {
+   "start": 4.244,
+   "end": 6.39,
+   "text": "لا يحتاجُ مالاً… ولا سفراً…"
+  },
+  {
+   "start": 6.748,
+   "end": 8.226,
+   "text": "ولا وقتاً طويلاً",
+   "spoken": "ولا وقتن طويلا"
+  },
+  {
+   "start": 8.584,
+   "end": 12.065,
+   "text": "تقولُه وأنت تمشي… أو تنتظر…\nأو قبل أن تنام"
+  },
+  {
+   "start": 12.423,
+   "end": 14.903,
+   "text": "قال النبيُّ ﷺ:",
+   "spoken": "قال النبي صلى الله عليه وسلم"
+  },
+  {
+   "start": 15.261,
+   "end": 17.073,
+   "text": "«كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ،",
+   "style": "hadith",
+   "highlight": [
+    "خَفِيفَتَانِ"
+   ]
+  },
+  {
+   "start": 17.43,
+   "end": 18.909,
+   "text": "ثَقِيلَتَانِ فِي الْمِيزَانِ،",
+   "style": "hadith",
+   "highlight": [
+    "ثَقِيلَتَانِ"
+   ]
+  },
+  {
+   "start": 19.267,
+   "end": 20.745,
+   "text": "حَبِيبَتَانِ إِلَى الرَّحْمَنِ:",
+   "style": "hadith",
+   "highlight": [
+    "حَبِيبَتَانِ"
+   ]
+  },
+  {
+   "start": 21.103,
+   "end": 23.582,
+   "text": "سُبْحَانَ اللهِ الْعَظِيمِ،\nسُبْحَانَ اللهِ وَبِحَمْدِهِ»",
+   "style": "hadith",
+   "highlight": [
+    "سُبْحَانَ اللهِ الْعَظِيمِ",
+    "سُبْحَانَ اللهِ وَبِحَمْدِهِ"
+   ]
+  },
+  {
+   "start": 23.94,
+   "end": 25.085,
+   "text": "متفقٌ عليه\nالبخاري (6406) · مسلم (2694)",
+   "ref_second_line": true,
+   "spoken": "متفقن عليه"
+  },
+  {
+   "start": 25.442,
+   "end": 26.921,
+   "text": "ثلاثُ صفات… تأمّلها"
+  },
+  {
+   "start": 27.278,
+   "end": 29.091,
+   "text": "خفيفتان… لا تُتعبان لسانك",
+   "highlight": [
+    "خفيفتان"
+   ]
+  },
+  {
+   "start": 29.448,
+   "end": 31.594,
+   "text": "ثقيلتان… في ميزانك يومَ القيامة",
+   "highlight": [
+    "ثقيلتان"
+   ]
+  },
+  {
+   "start": 31.952,
+   "end": 33.43,
+   "text": "حبيبتان… إلى الرحمن",
+   "highlight": [
+    "حبيبتان"
+   ]
+  },
+  {
+   "start": 33.788,
+   "end": 36.602,
+   "text": "فما أعظمَ أن يحبَّ اللهُ ما تقول!"
+  },
+  {
+   "start": 36.959,
+   "end": 39.439,
+   "text": "«سبحان الله»: تنزيهُه عن كلِّ نقص",
+   "highlight": [
+    "سبحان الله"
+   ]
+  },
+  {
+   "start": 39.797,
+   "end": 41.609,
+   "text": "«وبحمده»: الثناءُ عليه بكماله",
+   "highlight": [
+    "وبحمده"
+   ]
+  },
+  {
+   "start": 41.967,
+   "end": 43.445,
+   "text": "وقال اللهُ تعالى:"
+  },
+  {
+   "start": 43.803,
+   "end": 46.616,
+   "text": "﴿الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم\nبِذِكْرِ اللَّهِ ۗ",
+   "style": "quran"
+  },
+  {
+   "start": 46.974,
+   "end": 49.12,
+   "text": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾\n[الرعد: 28]",
+   "style": "quran",
+   "ref_second_line": true,
+   "spoken": "ألا بذكر الله تطمئن القلوب"
+  },
+  {
+   "start": 49.478,
+   "end": 52.291,
+   "text": "في زحمة يومك… في قلقك…\nفي انتظارك…"
+  },
+  {
+   "start": 52.649,
+   "end": 54.128,
+   "text": "اجعلهما على لسانك",
+   "highlight": [
+    "على لسانك"
+   ]
+  },
+  {
+   "start": 54.485,
+   "end": 56.965,
+   "text": "الآن… قبل أن تُغلق هذا المقطع",
+   "highlight": [
+    "الآن"
+   ]
+  },
+  {
+   "start": 57.323,
+   "end": 58.467,
+   "text": "قُلهما معي:"
+  },
+  {
+   "start": 58.825,
+   "end": 61.305,
+   "text": "سبحان الله العظيم…\nسبحان الله وبحمده",
+   "highlight": [
+    "سبحان الله العظيم",
+    "سبحان الله وبحمده"
+   ]
+  },
+  {
+   "start": 61.662,
+   "end": 64.142,
+   "text": "وأرسلها لمن تحب…\nلعلّه يقولهما معك"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "at": 0,
+   "desc": "شارع مزدحم، أشخاص يمشون من الخلف",
+   "query": "people walking street back view",
+   "alt_queries": [
+    "crowd walking city",
+    "pedestrians street"
+   ],
+   "look": "neutral",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s02",
+   "at": {
+    "cue": 2
+   },
+   "desc": "ميزان نحاسي قديم",
+   "query": "old balance scale",
+   "alt_queries": [
+    "brass scale",
+    "antique scale"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s03",
+   "at": {
+    "cue": 3
+   },
+   "desc": "طريق سفر من نافذة سيارة",
+   "query": "road trip car window",
+   "alt_queries": [
+    "driving highway",
+    "road travel"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s04",
+   "at": {
+    "cue": 4
+   },
+   "desc": "عقارب ساعة تتحرك",
+   "query": "clock ticking",
+   "alt_queries": [
+    "clock hands",
+    "wall clock"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s05",
+   "at": {
+    "cue": 5
+   },
+   "desc": "رجل يمشي من الخلف",
+   "query": "man walking from behind",
+   "alt_queries": [
+    "walking alone",
+    "footsteps walking"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s06",
+   "at": {
+    "cue": 5,
+    "offset": 2.0
+   },
+   "desc": "محطة انتظار",
+   "query": "waiting bus stop",
+   "alt_queries": [
+    "train station waiting",
+    "waiting room"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s07",
+   "at": {
+    "cue": 6
+   },
+   "desc": "داخل مسجد هادئ",
+   "query": "mosque interior",
+   "alt_queries": [
+    "mosque inside",
+    "mosque carpet"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s08",
+   "at": {
+    "cue": 7
+   },
+   "desc": "يد تمرر حبات المسبحة",
+   "query": "prayer beads hand",
+   "alt_queries": [
+    "tasbih beads",
+    "rosary beads hand"
+   ],
+   "look": "twilight",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s09",
+   "at": {
+    "cue": 9
+   },
+   "desc": "قنديل مسجد",
+   "query": "mosque lamp",
+   "alt_queries": [
+    "islamic lantern",
+    "lantern light"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s10",
+   "at": {
+    "cue": 10
+   },
+   "desc": "سماء وغيوم تتحرك",
+   "query": "clouds timelapse sky",
+   "alt_queries": [
+    "sky clouds",
+    "clouds moving"
+   ],
+   "look": "twilight",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   }
+  },
+  {
+   "id": "s11",
+   "at": {
+    "cue": 12
+   },
+   "desc": "ريشة تسقط ببطء",
+   "query": "feather falling",
+   "alt_queries": [
+    "white feather",
+    "feather slow motion"
+   ],
+   "look": "neutral",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s12",
+   "at": {
+    "cue": 14
+   },
+   "desc": "صخرة كبيرة ثابتة",
+   "query": "big rock",
+   "alt_queries": [
+    "boulder",
+    "stone landscape"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s13",
+   "at": {
+    "cue": 15
+   },
+   "desc": "شعاع شمس من بين الغيوم",
+   "query": "sun rays clouds",
+   "alt_queries": [
+    "sunbeams",
+    "light rays sky"
+   ],
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   }
+  },
+  {
+   "id": "s14",
+   "at": {
+    "cue": 17
+   },
+   "desc": "كثبان صحراء واسعة من الجو",
+   "query": "desert dunes aerial",
+   "alt_queries": [
+    "sand dunes",
+    "desert landscape"
+   ],
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   }
+  },
+  {
+   "id": "s15",
+   "at": {
+    "cue": 19
+   },
+   "desc": "مصحف مفتوح (بلا وجوه)",
+   "query": "quran pages",
+   "alt_queries": [
+    "quran reading",
+    "holy quran"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s16",
+   "at": {
+    "cue": 21
+   },
+   "desc": "بحيرة ساكنة صباحاً",
+   "query": "calm lake morning",
+   "alt_queries": [
+    "still water lake",
+    "lake reflection"
+   ],
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.04
+   }
+  },
+  {
+   "id": "s17",
+   "at": {
+    "cue": 22
+   },
+   "desc": "زحام سيارات المدينة",
+   "query": "city traffic",
+   "alt_queries": [
+    "traffic jam",
+    "busy road"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s18",
+   "at": {
+    "cue": 23
+   },
+   "desc": "يد تحمل مسبحة",
+   "query": "prayer beads",
+   "alt_queries": [
+    "tasbih",
+    "muslim prayer beads"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s19",
+   "at": {
+    "cue": 24
+   },
+   "desc": "يد تمسك هاتفاً",
+   "query": "hand holding smartphone",
+   "alt_queries": [
+    "smartphone scrolling",
+    "phone in hand"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s20",
+   "at": {
+    "cue": 26
+   },
+   "desc": "شروق ذهبي على الأفق",
+   "query": "golden sunrise horizon",
+   "alt_queries": [
+    "sunrise sky",
+    "sunrise clouds"
+   ],
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s21",
+   "at": {
+    "cue": 27
+   },
+   "desc": "مسجد عند الشروق",
+   "query": "mosque sunrise",
+   "alt_queries": [
+    "mosque silhouette",
+    "minaret sunrise"
+   ],
+   "look": "dawn",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.05
+   }
+  }
+ ]
+}
