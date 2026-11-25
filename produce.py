@@ -14,6 +14,7 @@ import argparse, csv, hashlib, json, os, re, shutil, subprocess, sys, time, unic
 from pathlib import Path
 
 W, H, FPS = 1080, 1920, 30
+MIN_DUR, MAX_DUR = 60.0, 70.0          # شرط المدة لكل حلقة
 ROOT = Path(__file__).resolve().parent
 VIDEO_EXT = {".mp4", ".mov", ".m4v", ".webm", ".mkv"}
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".webp"}
@@ -832,6 +833,9 @@ def cmd_render(ep, args):
     total = ep["duration"]
     cues = cue_times(ep)
     shots = resolve_shots(ep, cues, total)
+    if not (MIN_DUR <= total <= MAX_DUR):
+        die(f"مدة الحلقة {total:.2f} ث خارج المدى المطلوب ({MIN_DUR:.0f}–{MAX_DUR:.0f} ث): "
+            "عدّل النص (احذف أو أضف جملة) وأعد tts، أو عدّل الوقفات")
     res, _ = resolve_sources(ep, shots, strict=True)
     test_only = any(LICENSES.get(r["license"].get("source", "").lower(), {}).get("test_only") for r in res)
 
@@ -1038,7 +1042,7 @@ def verify(out, total):
         ("صوت AAC 48kHz", au["codec_name"] == "aac" and au["sample_rate"] == "48000"),
         (f"الجهارة {I[-1] if I else '?'} LUFS (هدف -14)", bool(I) and abs(float(I[-1]) + 14) <= 1.5),
         (f"الذروة {P[-1] if P else '?'} dBFS", bool(P) and float(P[-1]) <= -0.5),
-        ("أقل من 90 ث (Shorts/TikTok)", dur < 90),
+        (f"المدة ضمن {MIN_DUR:.0f}–{MAX_DUR:.0f} ث", MIN_DUR <= dur <= MAX_DUR),
     ]
     log("الفحص:")
     for name, ok in checks:
