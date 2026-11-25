@@ -231,11 +231,13 @@
     "cue": 4
    },
    "desc": "نافذة مظلمة وستارة تتحرك",
-   "query": "curtain window night",
+   "query": "quiet street night",
    "look": "night",
    "transition": "cut",
    "alt_queries": [
-    "curtain wind"
+    "empty street night",
+    "sleeping city night",
+    "houses night"
    ]
   },
   {
@@ -317,15 +319,16 @@
     "cue": 11
    },
    "desc": "يدان مرفوعتان بالدعاء (سيلويت)",
-   "query": "praying hands",
+   "query": "open palms",
    "look": "night",
    "transition": "cut",
    "motion": {
     "zoom": 0.05
    },
    "alt_queries": [
-    "dua hands",
-    "prayer hands"
+    "hands dua",
+    "hands raised sky",
+    "hands praying silhouette"
    ]
   },
   {
@@ -374,11 +377,13 @@
     "cue": 16
    },
    "desc": "يد تمسح البخار عن الزجاج",
-   "query": "foggy window",
+   "query": "condensation window night",
    "look": "night",
    "transition": "cut",
    "alt_queries": [
-    "condensation glass"
+    "raindrops glass",
+    "window rain drops",
+    "fog glass"
    ]
   },
   {
@@ -477,11 +482,13 @@
     "offset": 1.3
    },
    "desc": "سجادة صلاة",
-   "query": "prayer rug",
+   "query": "prayer mat",
    "look": "dawn",
    "transition": "cut",
    "alt_queries": [
-    "prayer mat"
+    "prayer rug pattern",
+    "carpet pattern",
+    "persian rug"
    ]
   },
   {
@@ -500,5 +507,15 @@
     "mosque silhouette sunset"
    ]
   }
+ ],
+ "reject_ids": [
+  250395,
+  132554,
+  360754,
+  140571,
+  122355,
+  73847,
+  204756,
+  18392
  ]
 }

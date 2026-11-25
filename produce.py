@@ -382,7 +382,10 @@ def cmd_fetch(ep):
     ff = ep_dir / "build" / "fetched.json"
     ff.parent.mkdir(parents=True, exist_ok=True)
     fetched = json.loads(ff.read_text(encoding="utf-8")) if ff.exists() else {}
-    used = {v.get("id") for v in fetched.values()}
+    rejected = set(ep.get("reject_ids", []))       # مقاطع رُفضت بعد مراجعة contact_sheet
+    for k in [k for k, v in fetched.items() if v.get("id") in rejected]:
+        del fetched[k]
+    used = {v.get("id") for v in fetched.values()} | rejected
     media = ROOT / "cache" / "media"
     media.mkdir(parents=True, exist_ok=True)
     ok = fail = 0
