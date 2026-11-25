@@ -24,8 +24,17 @@ SECRET_VARS = ("PIXABAY_API_KEY", "ELEVENLABS_API_KEY", "PEXELS_API_KEY")
 
 
 def secret(name):
+    """المفتاح من البيئة، وإلا من ملف خاص خارج المستودع (لا يُطبع ولا يُحفظ في git):
+    ~/.islamic-shorts/keys/<NAME>  أو المسار في <NAME>_FILE."""
     v = os.environ.get(name, "").strip()
-    return v or None
+    if v:
+        return v
+    for f in (os.environ.get(name + "_FILE", ""), str(Path.home() / ".islamic-shorts" / "keys" / name)):
+        if f and Path(f).is_file():
+            v = Path(f).read_text(encoding="utf-8").strip()
+            if v:
+                return v
+    return None
 
 
 def redact(text):

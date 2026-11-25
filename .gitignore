@@ -5,3 +5,4 @@ episodes/*/out/
 .env*
 secrets*
 __pycache__/
+.keys/
