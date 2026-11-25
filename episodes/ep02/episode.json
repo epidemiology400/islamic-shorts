@@ -1,7 +1,7 @@
 {
  "slug": "ep02_two_words",
  "title": "كلمتان خفيفتان… ثقيلتان في الميزان",
- "duration": 66.0,
+ "duration": 68.589,
  "audio": {
   "from_tts": false,
   "voice_id": "75JSsQU5gqeYrT6IVFDv",
@@ -35,8 +35,8 @@
  "fade_out": 1.0,
  "cues": [
   {
-   "start": 0.238,
-   "end": 2.051,
+   "start": 0.0,
+   "end": 1.699,
    "text": "تبحثُ عن عملٍ يسير…",
    "highlight": [
     "عملٍ يسير"
@@ -44,8 +44,8 @@
    "spoken": "تبحث عن عملن يسير"
   },
   {
-   "start": 2.408,
-   "end": 3.887,
+   "start": 1.739,
+   "end": 3.4,
    "text": "ثقيلٍ في ميزانك؟",
    "highlight": [
     "ثقيلٍ"
@@ -53,25 +53,25 @@
    "spoken": "ثقيلن في ميزانك"
   },
   {
-   "start": 4.244,
-   "end": 6.39,
+   "start": 3.44,
+   "end": 5.718,
    "text": "لا يحتاجُ مالاً، ولا سفراً"
   },
   {
-   "start": 6.748,
-   "end": 8.226,
+   "start": 5.758,
+   "end": 7.303,
    "text": "ولا وقتاً طويلاً",
    "spoken": "ولا وقتن طويلا"
   },
   {
-   "start": 12.423,
-   "end": 14.903,
+   "start": 7.343,
+   "end": 10.202,
    "text": "قال النبيُّ ﷺ:",
    "spoken": "قال النبي صلى الله عليه وسلم"
   },
   {
-   "start": 15.261,
-   "end": 17.073,
+   "start": 10.242,
+   "end": 12.675,
    "text": "«كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ،",
    "style": "hadith",
    "highlight": [
@@ -79,8 +79,8 @@
    ]
   },
   {
-   "start": 17.43,
-   "end": 18.909,
+   "start": 12.715,
+   "end": 14.723,
    "text": "ثَقِيلَتَانِ فِي الْمِيزَانِ،",
    "style": "hadith",
    "highlight": [
@@ -88,8 +88,8 @@
    ]
   },
   {
-   "start": 19.267,
-   "end": 20.745,
+   "start": 14.763,
+   "end": 16.984,
    "text": "حَبِيبَتَانِ إِلَى الرَّحْمَنِ:",
    "style": "hadith",
    "highlight": [
@@ -97,8 +97,8 @@
    ]
   },
   {
-   "start": 21.103,
-   "end": 23.582,
+   "start": 17.024,
+   "end": 20.598,
    "text": "سُبْحَانَ اللهِ الْعَظِيمِ،\nسُبْحَانَ اللهِ وَبِحَمْدِهِ»",
    "style": "hadith",
    "highlight": [
@@ -107,100 +107,100 @@
    ]
   },
   {
-   "start": 23.94,
-   "end": 25.085,
+   "start": 20.638,
+   "end": 22.356,
    "text": "متفقٌ عليه\nالبخاري (6406) · مسلم (2694)",
    "ref_second_line": true,
    "spoken": "متفقن عليه"
   },
   {
-   "start": 27.278,
-   "end": 29.091,
+   "start": 22.396,
+   "end": 25.66,
    "text": "خفيفتان… لا تُتعبان لسانك",
    "highlight": [
     "خفيفتان"
    ]
   },
   {
-   "start": 29.448,
-   "end": 31.594,
+   "start": 25.7,
+   "end": 28.946,
    "text": "ثقيلتان… في ميزانك يومَ القيامة",
    "highlight": [
     "ثقيلتان"
    ]
   },
   {
-   "start": 31.952,
-   "end": 33.43,
+   "start": 28.986,
+   "end": 31.612,
    "text": "حبيبتان… إلى الرحمن",
    "highlight": [
     "حبيبتان"
    ]
   },
   {
-   "start": 36.959,
-   "end": 39.439,
+   "start": 31.652,
+   "end": 35.013,
    "text": "«سبحان الله»: تنزيهُه عن كلِّ نقص",
    "highlight": [
     "سبحان الله"
    ]
   },
   {
-   "start": 39.797,
-   "end": 41.609,
+   "start": 35.053,
+   "end": 38.607,
    "text": "«وبحمده»: الثناءُ عليه بكماله",
    "highlight": [
     "وبحمده"
    ]
   },
   {
-   "start": 41.967,
-   "end": 43.445,
+   "start": 38.647,
+   "end": 40.385,
    "text": "وقال اللهُ تعالى:"
   },
   {
-   "start": 43.803,
-   "end": 46.616,
+   "start": 40.425,
+   "end": 44.907,
    "text": "﴿الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم\nبِذِكْرِ اللَّهِ ۗ",
    "style": "quran"
   },
   {
-   "start": 46.974,
-   "end": 49.12,
+   "start": 44.947,
+   "end": 47.96,
    "text": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾\n[الرعد: 28]",
    "style": "quran",
    "ref_second_line": true,
    "spoken": "ألا بذكر الله تطمئن القلوب"
   },
   {
-   "start": 49.478,
-   "end": 52.291,
+   "start": 48.0,
+   "end": 51.876,
    "text": "في زحمة يومك… في قلقك…\nفي انتظارك…"
   },
   {
-   "start": 52.649,
-   "end": 54.128,
+   "start": 51.916,
+   "end": 54.04,
    "text": "اجعلهما على لسانك",
    "highlight": [
     "على لسانك"
    ]
   },
   {
-   "start": 54.485,
-   "end": 56.965,
+   "start": 54.08,
+   "end": 57.584,
    "text": "الآن… قبل أن تُغلق هذا المقطع",
    "highlight": [
     "الآن"
    ]
   },
   {
-   "start": 57.323,
-   "end": 58.467,
+   "start": 57.624,
+   "end": 58.744,
    "text": "قُلهما معي:"
   },
   {
-   "start": 58.825,
-   "end": 61.305,
+   "start": 58.784,
+   "end": 62.802,
    "text": "سبحان الله العظيم…\nسبحان الله وبحمده",
    "highlight": [
     "سبحان الله العظيم",
@@ -208,8 +208,8 @@
    ]
   },
   {
-   "start": 61.662,
-   "end": 64.142,
+   "start": 62.842,
+   "end": 68.127,
    "text": "وأرسلها لمن تحب…\nلعلّه يقولهما معك"
   }
  ],
@@ -235,10 +235,11 @@
     "cue": 2
    },
    "desc": "ميزان نحاسي قديم",
-   "query": "old balance scale",
+   "query": "balance scale weighing",
    "alt_queries": [
-    "brass scale",
-    "antique scale"
+    "justice scale",
+    "weighing scale",
+    "scales balance"
    ],
    "look": "neutral",
    "transition": "cut"
@@ -263,10 +264,11 @@
     "cue": 4
    },
    "desc": "عقارب ساعة تتحرك",
-   "query": "clock ticking",
+   "query": "hourglass",
    "alt_queries": [
-    "clock hands",
-    "wall clock"
+    "sand timer",
+    "clock wall",
+    "clock time"
    ],
    "look": "neutral",
    "transition": "cut"
@@ -353,10 +355,11 @@
     "cue": 12
    },
    "desc": "صخرة كبيرة ثابتة",
-   "query": "big rock",
+   "query": "boulder stone",
    "alt_queries": [
-    "boulder",
-    "stone landscape"
+    "granite rock",
+    "rock cliff",
+    "stone mountain"
    ],
    "look": "neutral",
    "transition": "cut"
@@ -400,11 +403,12 @@
    "at": {
     "cue": 16
    },
-   "desc": "مصحف مفتوح (بلا وجوه)",
-   "query": "quran pages",
+   "desc": "ضوء من نافذة مسجد",
+   "query": "mosque window light",
    "alt_queries": [
-    "quran reading",
-    "holy quran"
+    "mosque interior light",
+    "arabesque window",
+    "mosque arches"
    ],
    "look": "dawn",
    "transition": "cut"
@@ -445,11 +449,12 @@
    "at": {
     "cue": 20
    },
-   "desc": "يد تحمل مسبحة",
-   "query": "prayer beads",
+   "desc": "كفّان مفتوحتان في ضوء الغروب",
+   "query": "palms up sunset",
    "alt_queries": [
-    "tasbih",
-    "muslim prayer beads"
+    "open hands sunset",
+    "hands sky silhouette",
+    "hands sunlight"
    ],
    "look": "dawn",
    "transition": "cut"
@@ -502,5 +507,20 @@
     "zoom": 0.05
    }
   }
+ ],
+ "reject_ids": [
+  212433,
+  236256,
+  264386,
+  135877,
+  140571,
+  18392,
+  122355,
+  73847,
+  204756,
+  250395,
+  132554,
+  360754,
+  224387
  ]
 }
