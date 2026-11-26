@@ -834,6 +834,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Narr,{fonts['narration']},{st.get('size', 68)},{white},{white},{soft},{soft},-1,0,0,0,100,100,0,0,1,3.2,2.2,2,110,150,{mv},-1
 Style: Hadith,{fonts['hadith']},{st.get('size_hadith', 70)},{ass_color('#F6EEDC')},{white},{soft},{soft},-1,0,0,0,100,100,0,0,1,3.2,2.2,2,100,140,{mv},-1
 Style: Hook,{fonts['narration']},{st.get('size_hook', 92)},{gold},{white},{soft},{ass_color('#000000', 0x60)},-1,0,0,0,100,100,0,0,1,4,3,8,90,90,{st.get('hook_margin_top', 330)},-1
+Style: Badge,{fonts['narration']},{st.get('size_badge', 40)},{ass_color('#EADCB8')},{white},{soft},{ass_color('#000000', 0x88)},-1,0,0,0,100,100,0,0,3,10,0,9,60,70,{st.get('badge_margin_top', 300)},-1
 Style: Quran,{fonts['quran']},{st.get('size_quran', 76)},{gold},{white},{soft},{soft},-1,0,0,0,100,100,0,0,1,3.4,2.4,2,100,140,{mv},-1
 
 [Events]
@@ -847,6 +848,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             ht = ht.replace(w, r"{\c" + white + "}" + w + r"{\c}", 1)
         lines.append(f"Dialogue: 1,{tc(hook.get('start', 0.0))},{tc(hook.get('end', 3.0))},Hook,,0,0,0,,"
                      + r"{\fad(0,280)\fscx112\fscy112\t(0,260,\fscx100\fscy100)}" + ht)
+    for bd in ep.get("badges", []):                 # توثيق مختصر ثابت في زاوية الشاشة أثناء النص الشرعي
+        a_, b_ = bd["cues"]
+        bt = bd["text"].replace("{", "(").replace("}", ")")
+        lines.append(f"Dialogue: 2,{tc(cues[a_ - 1]['start'])},{tc(cues[b_ - 1]['end'])},Badge,,0,0,0,,"
+                     + r"{\fad(250,250)}" + bt)
     words = load_words(ep) if st.get("karaoke") else None
     for ci, c in enumerate(cues):
         style = {"quran": "Quran", "hadith": "Hadith"}.get(c.get("style", ""), "Narr")
@@ -899,7 +905,7 @@ def cmd_check(ep):
 
 def split_long_shots(shots, res, max_shot):
     """يقسّم المشهد الأطول من max_shot إلى أجزاء من المقطع نفسه (تسلسل زمني متصل)
-    مع قفزة تكبير خفيفة عند كل قطع: إيقاع أسرع دون مقاطع إضافية."""
+    مع تغيّر هادئ في اتجاه الحركة عند كل قطع (بلا قفزات صاخبة): إيقاع أسرع دون مقاطع إضافية."""
     import math
     out_s, out_r = [], []
     for s, r in zip(shots, res):
@@ -917,8 +923,8 @@ def split_long_shots(shots, res, max_shot):
             if j:
                 p["id"] = f"{s['id']}.{j + 1}"
                 p["transition"] = "cut"
-                p["motion"] = ({"zoom": max(0.09, m.get("zoom", 0.06) + 0.04), "dir": "out"} if j % 2
-                               else {"zoom": m.get("zoom", 0.06), "dir": "in"})
+                p["motion"] = ({"zoom": max(0.06, m.get("zoom", 0.05) + 0.02), "dir": "out"} if j % 2
+                               else {"zoom": m.get("zoom", 0.05), "dir": "in"})
             out_s.append(p); out_r.append(r)
     return out_s, out_r
 
