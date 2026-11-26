@@ -770,6 +770,51 @@ def ass_color(hexrgb, alpha=0):
     return f"&H{alpha:02X}{b}{g}{r}".upper()
 
 
+def load_words(ep):
+    f = ep["_dir"] / "build" / "words.json"
+    if not f.exists():
+        return None
+    w = json.loads(f.read_text(encoding="utf-8"))
+    w = w.get("words", w) if isinstance(w, dict) else w
+    return [x for x in w if x.get("type", "word") == "word" and not str(x.get("text", "")).startswith("[")]
+
+
+def karaoke_text(c, words, next_start, gold):
+    """ترجمة تتبع الكلام: كل كلمة معروضة تُضاء لحظة نطقها (k)."""
+    ws = [w for w in words if c["start"] - 0.06 <= float(w["start"]) < next_start - 0.02]
+    if not ws:
+        return None
+    lines = c["text"].split("\n")
+    toks = [(li, t) for li, ln in enumerate(lines) for t in ln.split()]
+    if not toks:
+        return None
+    if len(ws) == len(toks):
+        starts = [float(w["start"]) for w in ws]
+    else:
+        a, b = float(ws[0]["start"]), float(ws[-1]["end"])
+        L = [len(t) + 1 for _, t in toks]
+        tot, acc, starts = sum(L), 0, []
+        for n in L:
+            starts.append(a + (b - a) * acc / tot)
+            acc += n
+    hl = sorted(c.get("highlight", []), key=len, reverse=True)
+    hl_words = {x for h in hl for x in h.split()}
+    out, t0 = [], c["start"]
+    lead = max(0, round((starts[0] - t0) * 100))
+    if lead:
+        out.append(r"{\k%d}" % lead)
+    for i, (li, t) in enumerate(toks):
+        end = starts[i + 1] if i + 1 < len(toks) else starts[i] + 0.45
+        k = max(1, round((end - starts[i]) * 100))
+        sep = ""
+        if i + 1 < len(toks):
+            sep = r"\N" if toks[i + 1][0] != li else " "
+        tt = t.replace("{", "(").replace("}", ")")
+        col = r"\c" + gold if t in hl_words else ""
+        out.append(r"{\k%d%s}" % (k, col) + tt + (r"{\c&HFFFFFF&}" if col else "") + sep)
+    return "".join(out)
+
+
 def build_ass(ep, cues, out_path, fonts):
     st = ep.get("style", {})
     gold = ass_color(st.get("accent", "#D4A64A"))
@@ -788,14 +833,30 @@ YCbCr Matrix: TV.709
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Narr,{fonts['narration']},{st.get('size', 68)},{white},{white},{soft},{soft},-1,0,0,0,100,100,0,0,1,3.2,2.2,2,110,150,{mv},-1
 Style: Hadith,{fonts['hadith']},{st.get('size_hadith', 70)},{ass_color('#F6EEDC')},{white},{soft},{soft},-1,0,0,0,100,100,0,0,1,3.2,2.2,2,100,140,{mv},-1
+Style: Hook,{fonts['narration']},{st.get('size_hook', 92)},{gold},{white},{soft},{ass_color('#000000', 0x60)},-1,0,0,0,100,100,0,0,1,4,3,8,90,90,{st.get('hook_margin_top', 330)},-1
 Style: Quran,{fonts['quran']},{st.get('size_quran', 76)},{gold},{white},{soft},{soft},-1,0,0,0,100,100,0,0,1,3.4,2.4,2,100,140,{mv},-1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     lines = []
-    for c in cues:
+    hook = ep.get("hook")
+    if hook and hook.get("text"):
+        ht = hook["text"].replace("{", "(").replace("}", ")").replace("\n", r"\N")
+        for w in sorted(hook.get("highlight", []), key=len, reverse=True):
+            ht = ht.replace(w, r"{\c" + white + "}" + w + r"{\c}", 1)
+        lines.append(f"Dialogue: 1,{tc(hook.get('start', 0.0))},{tc(hook.get('end', 3.0))},Hook,,0,0,0,,"
+                     + r"{\fad(0,280)\fscx112\fscy112\t(0,260,\fscx100\fscy100)}" + ht)
+    words = load_words(ep) if st.get("karaoke") else None
+    for ci, c in enumerate(cues):
         style = {"quran": "Quran", "hadith": "Hadith"}.get(c.get("style", ""), "Narr")
+        if words and style == "Narr" and not c.get("ref_second_line"):
+            nxt = cues[ci + 1]["start"] if ci + 1 < len(cues) else c["end"] + 5
+            kt = karaoke_text(c, words, nxt, gold)
+            if kt:
+                lines.append(f"Dialogue: 0,{tc(c['start'])},{tc(c['end'])},Narr,,0,0,0,,"
+                             + r"{\fad(120,200)\2c" + ass_color(st.get("karaoke_dim", "#9A9A9A")) + "}" + kt)
+                continue
         parts = c["text"].split("\n")
         body = []
         for j, p in enumerate(parts):
@@ -836,6 +897,32 @@ def cmd_check(ep):
         log("\n✔ جاهز للإخراج")
 
 
+def split_long_shots(shots, res, max_shot):
+    """يقسّم المشهد الأطول من max_shot إلى أجزاء من المقطع نفسه (تسلسل زمني متصل)
+    مع قفزة تكبير خفيفة عند كل قطع: إيقاع أسرع دون مقاطع إضافية."""
+    import math
+    out_s, out_r = [], []
+    for s, r in zip(shots, res):
+        k = math.ceil(s["dur"] / max_shot - 0.25)
+        info = media_info(r["path"]) if k > 1 else None
+        if k <= 1 or info["image"] or info["dur"] < s["dur"] + 0.5:
+            out_s.append(s); out_r.append(r)
+            continue
+        d = s["dur"] / k
+        base = float(s["in"]) if "in" in s else max(0.0, (info["dur"] - s["dur"]) * 0.4)
+        m = s.get("motion", {})
+        for j in range(k):
+            p = {**s, "start": s["start"] + j * d, "end": s["start"] + (j + 1) * d, "dur": d,
+                 "in": base + j * d, "_part": j}
+            if j:
+                p["id"] = f"{s['id']}.{j + 1}"
+                p["transition"] = "cut"
+                p["motion"] = ({"zoom": max(0.09, m.get("zoom", 0.06) + 0.04), "dir": "out"} if j % 2
+                               else {"zoom": m.get("zoom", 0.06), "dir": "in"})
+            out_s.append(p); out_r.append(r)
+    return out_s, out_r
+
+
 def cmd_render(ep, args):
     ep_dir = ep["_dir"]
     b = ep_dir / "build"
@@ -850,6 +937,10 @@ def cmd_render(ep, args):
             "عدّل النص (احذف أو أضف جملة) وأعد tts، أو عدّل الوقفات")
     res, _ = resolve_sources(ep, shots, strict=True)
     test_only = any(LICENSES.get(r["license"].get("source", "").lower(), {}).get("test_only") for r in res)
+    report_shots, report_res = shots, res
+    if ep.get("style", {}).get("max_shot"):
+        shots, res = split_long_shots(shots, res, float(ep["style"]["max_shot"]))
+        log(f"الإيقاع: {len(report_shots)} مشهد ← {len(shots)} لقطة (أقصى {ep['style']['max_shot']} ث)")
 
     # ---- الخطوط
     user_fonts = ROOT / "fonts"
@@ -979,7 +1070,7 @@ def cmd_render(ep, args):
     # ---- مخرجات مرافقة
     write_srt(cues, out_dir / f"{ep.get('slug', 'episode')}_ar.srt")
     report = []
-    for s, r in zip(shots, res):
+    for s, r in zip(report_shots, report_res):
         L = r["license"]
         report.append({"shot": s["id"], "start": round(s["start"], 2), "end": round(s["end"], 2),
                        "file": r["path"].name, "source": L.get("source"), "url": L.get("url"),
@@ -993,7 +1084,8 @@ def cmd_render(ep, args):
                                                   encoding="utf-8")
     credits = credits_text(report, a)
     (out_dir / "credits_for_description.txt").write_text(credits, encoding="utf-8")
-    contact_sheet(seg_files, shots, out_dir / "contact_sheet.jpg")
+    firsts = [(sf, sh) for sf, sh in zip(seg_files, shots) if not sh.get("_part")]
+    contact_sheet([x[0] for x in firsts], [x[1] for x in firsts], out_dir / "contact_sheet.jpg")
     verify(out, total)
     if test_only:
         log("⚠ هذا إخراج اختباري بمقاطع اختبار — لا يُنشر.")
