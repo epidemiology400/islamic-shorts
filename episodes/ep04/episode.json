@@ -1,0 +1,535 @@
+{
+ "slug": "ep04_distress_dua",
+ "title": "دعاء الكرب… كان النبي ﷺ يقوله عند الشدة",
+ "duration": 67.98,
+ "audio": {
+  "from_tts": false,
+  "file": "vo_master.wav",
+  "voice_id": "75JSsQU5gqeYrT6IVFDv",
+  "model_id": "eleven_v3",
+  "ambience": [],
+  "credit": "التعليق الصوتي: مولّد بـ ElevenLabs (صوت Allan – Deep Arabic Narrator)",
+  "script": "حِينَ يَضِيقُ صَدْرُكْ، وَلَا تَجِدُ مَا تَقُولْ،\nاسْمَعْ مَا كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُهُ عِنْدَ الْكَرْبْ.\nرَوَى ابْنُ عَبَّاسِنْ أَنَّهُ كَانَ يَقُولْ:\nلَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمْ،\nلَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمْ،\nلَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ، وَرَبُّ الْأَرْضِ، وَرَبُّ الْعَرْشِ الْكَرِيمْ.\nرَوَاهُ الْبُخَارِيُّ وَمُسْلِمْ.\nلَيْسَ فِيهِ إِلَّا تَوْحِيدُنْ وَثَنَاءْ،\nتَذْكُرُ عَظَمَةَ رَبِّكْ، فَيَصْغُرُ فِي عَيْنِكَ مَا أَهَمَّكْ.\nالْعَظِيمُ الَّذِي لَا يَعْظُمُ عَلَيْهِ شَيْءْ، وَالْحَلِيمُ الَّذِي يُمْهِلُ وَلَا يُعَجِّلْ.\nوَقَالَ اللَّهُ تَعَالَى:\nأَمَّنْ يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ السُّوءْ.\nالْمُضْطَرُّ، الَّذِي لَا يَجِدُ مَلْجَأَنْ إِلَّا اللَّهْ.\nفَإِذَا أُغْلِقَتِ الْأَبْوَابْ، فَبَابُ رَبِّ الْعَرْشِ الْكَرِيمِ لَا يُغْلَقْ.\nلَا تَحْمِلْ هَمَّكَ وَحْدَكْ، فَرَبُّكَ أَقْرَبُ إِلَيْكَ مِمَّا تَظُنّْ.\nقُلْهَا بِيَقِينْ، ثُمَّ ادْعُ بِحَاجَتِكْ.\nاحْفَظْ هَذَا الْمَقْطَعَ لِتَرْجِعَ لَهُ وَقْتَ حَاجَتِكْ،\nفَقَدْ يَأْتِي يَوْمْ،",
+  "takes_note": "take1 (51.7 ث، 105 كلمات) قصير؛ أُضيفت جملتان وعظيتان (العظيم/الحليم، ولا تحمل همّك وحدك). take2 (66.48 ث، 125 كلمة) اعتُمد دون تسريع (R=1.0)."
+ },
+ "fonts": {
+  "narration": [
+   "Tajawal",
+   "Cairo"
+  ],
+  "hadith": [
+   "Amiri"
+  ],
+  "quran": [
+   "Amiri Quran",
+   "Amiri"
+  ]
+ },
+ "style": {
+  "accent": "#D4A64A",
+  "size": 68,
+  "size_hadith": 86,
+  "size_quran": 96,
+  "margin_bottom": 560,
+  "karaoke": true,
+  "max_shot": 4.0
+ },
+ "fade_out": 1.0,
+ "hook": {
+  "text": "دعاءٌ نبويّ\nلساعة الكرب",
+  "end": 3.0,
+  "highlight": [
+   "الكرب"
+  ]
+ },
+ "badges": [
+  {
+   "text": "رواه البخاري ومسلم",
+   "cues": [
+    4,
+    8
+   ]
+  },
+  {
+   "text": "سورة النمل: 62",
+   "cues": [
+    13,
+    14
+   ]
+  }
+ ],
+ "cues": [
+  {
+   "start": 0.0,
+   "end": 3.053,
+   "text": "حين يضيقُ صدرُك،\nولا تجدُ ما تقول",
+   "highlight": [
+    "يضيقُ"
+   ]
+  },
+  {
+   "start": 3.093,
+   "end": 8.32,
+   "text": "اسمعْ ما كان النبيُّ ﷺ\nيقولُه عند الكرب",
+   "highlight": [
+    "الكرب"
+   ]
+  },
+  {
+   "start": 8.36,
+   "end": 11.02,
+   "text": "روى ابنُ عباسٍ رضي الله عنهما\nأنه ﷺ كان يقول:",
+   "spoken": "روى ابن عباس أنه كان يقول"
+  },
+  {
+   "start": 11.06,
+   "end": 14.32,
+   "text": "«لَا إِلَهَ إِلَّا اللهُ الْعَظِيمُ الْحَلِيمُ،",
+   "style": "hadith",
+   "highlight": [
+    "الْعَظِيمُ",
+    "الْحَلِيمُ"
+   ]
+  },
+  {
+   "start": 14.36,
+   "end": 17.76,
+   "text": "لَا إِلَهَ إِلَّا اللهُ رَبُّ الْعَرْشِ الْعَظِيمِ،",
+   "style": "hadith"
+  },
+  {
+   "start": 17.8,
+   "end": 20.32,
+   "text": "لَا إِلَهَ إِلَّا اللهُ رَبُّ السَّمَاوَاتِ",
+   "style": "hadith"
+  },
+  {
+   "start": 20.36,
+   "end": 22.92,
+   "text": "وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ»",
+   "style": "hadith",
+   "highlight": [
+    "الْكَرِيمِ"
+   ]
+  },
+  {
+   "start": 22.96,
+   "end": 24.72,
+   "text": "متفقٌ عليه\nالبخاري (6346) · مسلم (2730)",
+   "ref_second_line": true,
+   "spoken": "رواه البخاري ومسلم"
+  },
+  {
+   "start": 24.76,
+   "end": 27.96,
+   "text": "ليس فيه إلا توحيدٌ وثناء",
+   "highlight": [
+    "توحيدٌ"
+   ],
+   "spoken": "ليس فيه إلا توحيدن وثناء"
+  },
+  {
+   "start": 28.0,
+   "end": 32.173,
+   "text": "تذكرُ عظمةَ ربِّك،\nفيصغرُ في عينك ما أهمّك",
+   "highlight": [
+    "عظمةَ"
+   ]
+  },
+  {
+   "start": 32.213,
+   "end": 39.12,
+   "text": "العظيمُ الذي لا يعظُمُ عليه شيء،\nوالحليمُ الذي يُمهِلُ ولا يُعجِّل",
+   "highlight": [
+    "العظيمُ",
+    "والحليمُ"
+   ]
+  },
+  {
+   "start": 39.16,
+   "end": 40.72,
+   "text": "وقال اللهُ تعالى:"
+  },
+  {
+   "start": 40.76,
+   "end": 43.96,
+   "text": "﴿أَمَّن يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ",
+   "style": "quran",
+   "spoken": "أمن يجيب المضطر إذا دعاه"
+  },
+  {
+   "start": 44.0,
+   "end": 45.853,
+   "text": "وَيَكْشِفُ السُّوءَ﴾\n[النمل: 62]",
+   "style": "quran",
+   "ref_second_line": true,
+   "spoken": "ويكشف السوء"
+  },
+  {
+   "start": 45.893,
+   "end": 49.121,
+   "text": "المضطرُّ: الذي لا يجدُ\nملجأً إلا الله",
+   "highlight": [
+    "ملجأً"
+   ],
+   "spoken": "المضطر الذي لا يجد ملجأن إلا الله"
+  },
+  {
+   "start": 49.161,
+   "end": 53.761,
+   "text": "فإذا أُغلقت الأبواب،\nفبابُ ربِّ العرشِ الكريم لا يُغلَق",
+   "highlight": [
+    "يُغلَق"
+   ]
+  },
+  {
+   "start": 53.801,
+   "end": 58.481,
+   "text": "لا تحملْ همَّك وحدك،\nفربُّك أقربُ إليك مما تظن",
+   "highlight": [
+    "أقربُ"
+   ]
+  },
+  {
+   "start": 58.521,
+   "end": 61.401,
+   "text": "قُلْها بيقين،\nثم ادعُ بحاجتك",
+   "highlight": [
+    "بيقين"
+   ]
+  },
+  {
+   "start": 61.441,
+   "end": 65.201,
+   "text": "احفظ هذا المقطع\nلترجع له وقت حاجتك"
+  },
+  {
+   "start": 65.241,
+   "end": 67.51,
+   "text": "فقد يأتي يومٌ…",
+   "spoken": "فقد يأتي يوم"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "at": {
+    "cue": 1
+   },
+   "desc": "رجل يمشي في طريق عند الغروب (ظلّ بلا ملامح)",
+   "query": "man sitting alone back view sunset",
+   "alt_queries": [
+    "silhouette man sitting",
+    "lonely man back view"
+   ],
+   "look": "neutral",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s02",
+   "at": {
+    "cue": 2
+   },
+   "desc": "مسجد عند الغسق",
+   "query": "mosque dusk",
+   "alt_queries": [
+    "mosque evening",
+    "mosque minaret sunset"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s03",
+   "at": {
+    "cue": 3
+   },
+   "desc": "زخارف سقف مسجد",
+   "query": "mosque lantern",
+   "alt_queries": [
+    "islamic lantern",
+    "lantern light night"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s04",
+   "at": {
+    "cue": 4
+   },
+   "desc": "سماء الليل والنجوم",
+   "query": "starry night sky",
+   "alt_queries": [
+    "night sky stars timelapse",
+    "milky way"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s05",
+   "at": {
+    "cue": 5
+   },
+   "desc": "غيوم فوق السماء",
+   "query": "clouds timelapse sky",
+   "alt_queries": [
+    "clouds moving sky",
+    "sky clouds"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s06",
+   "at": {
+    "cue": 6
+   },
+   "desc": "جبال خضراء من الأعلى",
+   "query": "mountains aerial",
+   "alt_queries": [
+    "mountain landscape aerial",
+    "valley aerial"
+   ],
+   "look": "dawn",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s07",
+   "at": {
+    "cue": 7
+   },
+   "desc": "شروق على البحر",
+   "query": "sunrise sea",
+   "alt_queries": [
+    "sunrise ocean",
+    "sea sunrise horizon"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s08",
+   "at": {
+    "cue": 8
+   },
+   "desc": "مسجد بقبة فوق مدينة",
+   "query": "mosque dome",
+   "alt_queries": [
+    "mosque architecture",
+    "mosque minaret"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s09",
+   "at": {
+    "cue": 9
+   },
+   "desc": "بحيرة ساكنة",
+   "query": "calm lake",
+   "alt_queries": [
+    "lake reflection morning",
+    "still water lake"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s10",
+   "at": {
+    "cue": 10
+   },
+   "desc": "طريق ريفي ورجل يمشي بعيداً في ضوء الصباح",
+   "query": "sunbeams",
+   "alt_queries": [
+    "light rays sky",
+    "sun rays forest"
+   ],
+   "look": "dawn",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s11",
+   "at": {
+    "cue": 11
+   },
+   "desc": "قمم جبلية مثلجة وغيوم",
+   "query": "mountain peak clouds",
+   "alt_queries": [
+    "majestic mountains",
+    "mountain clouds timelapse"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s12",
+   "at": {
+    "cue": 12
+   },
+   "desc": "صحراء وكثبان",
+   "query": "desert dunes",
+   "alt_queries": [
+    "sand dunes desert",
+    "desert sunset"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s13",
+   "at": {
+    "cue": 13
+   },
+   "desc": "مطر على زجاج نافذة",
+   "query": "rain window",
+   "alt_queries": [
+    "rain drops glass",
+    "raindrops window"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s14",
+   "at": {
+    "cue": 14
+   },
+   "desc": "حقل أزهار عند الشروق",
+   "query": "sunrise clouds sky",
+   "alt_queries": [
+    "sun clouds timelapse",
+    "sunlight breaking clouds"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s15",
+   "at": {
+    "cue": 15
+   },
+   "desc": "طريق في غابة صباحاً",
+   "query": "lonely tree field",
+   "alt_queries": [
+    "single tree meadow",
+    "tree sunset"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s16",
+   "at": {
+    "cue": 16
+   },
+   "desc": "موج على الشاطئ في ضوء الغروب",
+   "query": "light through window",
+   "alt_queries": [
+    "sunlight window",
+    "window light rays"
+   ],
+   "look": "dawn",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s17",
+   "at": {
+    "cue": 17
+   },
+   "desc": "قمم جبلية في ضوء الشمس",
+   "query": "empty road sunrise",
+   "alt_queries": [
+    "road horizon dawn",
+    "path sunrise"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s18",
+   "at": {
+    "cue": 18
+   },
+   "desc": "نخلة وسماء دافئة",
+   "query": "palms up sunset",
+   "alt_queries": [
+    "hands raised sunset",
+    "praying hands silhouette"
+   ],
+   "look": "dawn",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s19",
+   "at": {
+    "cue": 19
+   },
+   "desc": "بحر صافٍ من أعلى جرف",
+   "query": "calm ocean waves",
+   "alt_queries": [
+    "sea waves shore",
+    "ocean waves"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s20",
+   "at": {
+    "cue": 20
+   },
+   "desc": "غروب على البحر",
+   "query": "sunset sky clouds",
+   "alt_queries": [
+    "sunset timelapse",
+    "golden sky"
+   ],
+   "look": "dawn",
+   "transition": "dissolve"
+  }
+ ],
+ "reject_ids": [
+  212433,
+  236256,
+  264386,
+  135877,
+  140571,
+  18392,
+  122355,
+  73847,
+  204756,
+  250395,
+  132554,
+  360754,
+  224387,
+  181786,
+  285663,
+  21536,
+  223829,
+  201404,
+  273961,
+  30087,
+  382383,
+  1917,
+  283533,
+  307864,
+  382382,
+  12687
+ ]
+}
