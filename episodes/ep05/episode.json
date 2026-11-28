@@ -1,0 +1,518 @@
+{
+ "slug": "ep05_la_hawla",
+ "title": "كنزٌ من كنوز الجنة… على لسانك",
+ "duration": 60.78,
+ "audio": {
+  "from_tts": false,
+  "file": "vo_master.wav",
+  "voice_id": "75JSsQU5gqeYrT6IVFDv",
+  "model_id": "eleven_v3",
+  "ambience": [],
+  "credit": "التعليق الصوتي: مولّد بـ ElevenLabs (صوت Allan – Deep Arabic Narrator)",
+  "script": "عَلَى لِسَانِكَ كَنْزْ، مِنْ كُنُوزِ الْجَنَّةْ،\nوَقَدْ لَا تَنْتَبِهُ لَهْ.\nكَانَ أَبُو مُوسَى الْأَشْعَرِيُّ مَعَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، فَقَالَ لَهْ:\nأَلَا أَدُلُّكَ عَلَى كَنْزِنْ مِنْ كُنُوزِ الْجَنَّةْ؟\nفَقُلْتُ: بَلَى يَا رَسُولَ اللَّهْ، قَالَ:\nلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهْ.\nرَوَاهُ الْبُخَارِيُّ وَمُسْلِمْ.\nهِيَ كَلِمَةُ اسْتِسْلَامِنْ وَتَفْوِيضِنْ إِلَى اللَّهْ،\nتَعْتَرِفُ فِيهَا أَنَّكَ لَا تَمْلِكُ مِنَ الْأَمْرِ شَيْئَا.\nفَلَيْسَتْ كَلِمَةَ عَجْزْ، بَلْ كَلِمَةُ اسْتِعَانَةْ.\nوَقَالَ اللَّهُ تَعَالَى:\nوَلَوْلَا إِذْ دَخَلْتَ جَنَّتَكَ قُلْتَ مَا شَاءَ اللَّهُ لَا قُوَّةَ إِلَّا بِاللَّهْ.\nقَالَهَا الْمُؤْمِنُ لِصَاحِبِ الْجَنَّتَيْنْ، حِينَ اغْتَرَّ بِمَا عِنْدَهْ.\nفَإِذَا ضَعُفْتَ أَمَامَ هَمِّكْ، أَوْ أَعْجَبَتْكَ نِعْمَةْ، قُلْهَا.\nفِي الشِّدَّةِ تَسْتَعِينُ بِهَا، وَفِي النِّعْمَةِ تَنْسِبُ الْفَضْلَ لِصَاحِبِهْ.\nاكْتُبْ فِي التَّعْلِيقَاتِ دُعَاءَنْ تُحِبُّهْ، لَعَلَّهُ يَكُونُ فِي الْمَقْطَعِ الْقَادِمْ.\nوَتَذَكَّرْ دَائِمَا،",
+  "takes_note": "take1 (59.28 ث، 116 كلمة) اعتُمد دون تسريع (R=1.0) ودون صمت مضاف؛ المدة 60.78 ث."
+ },
+ "fonts": {
+  "narration": [
+   "Tajawal",
+   "Cairo"
+  ],
+  "hadith": [
+   "Amiri"
+  ],
+  "quran": [
+   "Amiri Quran",
+   "Amiri"
+  ]
+ },
+ "style": {
+  "accent": "#D4A64A",
+  "size": 68,
+  "size_hadith": 86,
+  "size_quran": 96,
+  "margin_bottom": 560,
+  "karaoke": true,
+  "max_shot": 4.0
+ },
+ "fade_out": 1.0,
+ "hook": {
+  "text": "كنزٌ تحمله\nعلى لسانك",
+  "end": 3.0,
+  "highlight": [
+   "كنزٌ"
+  ]
+ },
+ "badges": [
+  {
+   "text": "رواه البخاري ومسلم",
+   "cues": [
+    4,
+    7
+   ]
+  },
+  {
+   "text": "سورة الكهف: 39",
+   "cues": [
+    12,
+    13
+   ]
+  }
+ ],
+ "reject_ids": [
+  212433,
+  236256,
+  264386,
+  135877,
+  140571,
+  18392,
+  122355,
+  73847,
+  204756,
+  250395,
+  132554,
+  360754,
+  224387,
+  181786,
+  285663,
+  21536,
+  223829,
+  201404,
+  273961,
+  30087,
+  382383,
+  1917,
+  283533,
+  307864,
+  382382,
+  12687
+ ],
+ "cues": [
+  {
+   "text": "على لسانك كنزٌ\nمن كنوز الجنة",
+   "highlight": [
+    "كنزٌ"
+   ],
+   "spoken": "على لسانك كنز من كنوز الجنة",
+   "start": 0.0,
+   "end": 3.12
+  },
+  {
+   "text": "وقد لا تنتبهُ له",
+   "start": 3.16,
+   "end": 5.04
+  },
+  {
+   "text": "كان أبو موسى الأشعريُّ رضي الله عنه\nمع النبي ﷺ، فقال له:",
+   "spoken": "كان أبو موسى الأشعري مع النبي صلى الله عليه وسلم فقال له",
+   "start": 5.08,
+   "end": 9.52
+  },
+  {
+   "text": "«أَلَا أَدُلُّكَ عَلَى كَنْزٍ\nمِنْ كُنُوزِ الْجَنَّةِ؟»",
+   "style": "hadith",
+   "highlight": [
+    "كَنْزٍ"
+   ],
+   "spoken": "ألا أدلك على كنزن من كنوز الجنة",
+   "start": 9.56,
+   "end": 12.52
+  },
+  {
+   "text": "فَقُلْتُ: بَلَى يَا رَسُولَ اللَّهِ، قَالَ:",
+   "style": "hadith",
+   "start": 12.56,
+   "end": 15.507
+  },
+  {
+   "text": "«لَا حَوْلَ وَلَا قُوَّةَ\nإِلَّا بِاللَّهِ»",
+   "style": "hadith",
+   "highlight": [
+    "حَوْلَ",
+    "قُوَّةَ"
+   ],
+   "start": 15.547,
+   "end": 18.04
+  },
+  {
+   "text": "متفقٌ عليه\nالبخاري (6384) · مسلم (2704)",
+   "ref_second_line": true,
+   "spoken": "رواه البخاري ومسلم",
+   "start": 18.08,
+   "end": 20.12
+  },
+  {
+   "text": "هي كلمةُ استسلامٍ\nوتفويضٍ إلى الله",
+   "highlight": [
+    "وتفويضٍ"
+   ],
+   "spoken": "هي كلمة استسلامن وتفويضن إلى الله",
+   "start": 20.16,
+   "end": 23.52
+  },
+  {
+   "text": "تعترفُ فيها أنك\nلا تملكُ من الأمر شيئاً",
+   "spoken": "تعترف فيها أنك لا تملك من الأمر شيئا",
+   "start": 23.56,
+   "end": 27.18
+  },
+  {
+   "text": "فليست كلمةَ عجز،\nبل كلمةُ استعانة",
+   "highlight": [
+    "استعانة"
+   ],
+   "start": 27.22,
+   "end": 30.56
+  },
+  {
+   "text": "وقال اللهُ تعالى:",
+   "start": 30.6,
+   "end": 32.08
+  },
+  {
+   "text": "﴿وَلَوْلَا إِذْ دَخَلْتَ جَنَّتَكَ",
+   "style": "quran",
+   "spoken": "ولولا إذ دخلت جنتك",
+   "start": 32.12,
+   "end": 34.48
+  },
+  {
+   "text": "قُلْتَ مَا شَاءَ اللَّهُ لَا قُوَّةَ إِلَّا بِاللَّهِ﴾\n[الكهف: 39]",
+   "style": "quran",
+   "ref_second_line": true,
+   "spoken": "قلت ما شاء الله لا قوة إلا بالله",
+   "start": 34.52,
+   "end": 38.44
+  },
+  {
+   "text": "قالها المؤمنُ لصاحب الجنتين،\nحين اغترَّ بما عنده",
+   "highlight": [
+    "اغترَّ"
+   ],
+   "start": 38.48,
+   "end": 42.92
+  },
+  {
+   "text": "فإذا ضعُفتَ أمام همِّك،\nأو أعجبتك نعمةٌ، قُلها",
+   "highlight": [
+    "قُلها"
+   ],
+   "spoken": "فإذا ضعفت أمام همك أو أعجبتك نعمة قلها",
+   "start": 42.96,
+   "end": 47.44
+  },
+  {
+   "text": "في الشدة تستعينُ بها،\nوفي النعمة تنسبُ الفضلَ لصاحبه",
+   "highlight": [
+    "تستعينُ",
+    "الفضلَ"
+   ],
+   "start": 47.48,
+   "end": 52.68
+  },
+  {
+   "text": "اكتب في التعليقات دعاءً تحبه،\nلعله يكون في المقطع القادم",
+   "spoken": "اكتب في التعليقات دعاءن تحبه لعله يكون في المقطع القادم",
+   "start": 52.72,
+   "end": 57.92
+  },
+  {
+   "text": "وتذكّرْ دائماً…",
+   "spoken": "وتذكر دائما",
+   "start": 57.96,
+   "end": 60.404
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "at": {
+    "cue": 1
+   },
+   "desc": "شمس غاربة خلف شجرة على تلّ",
+   "query": "golden light clouds",
+   "alt_queries": [
+    "sun rays clouds",
+    "sunbeams sky"
+   ],
+   "look": "dawn",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s02",
+   "at": {
+    "cue": 2
+   },
+   "desc": "شمس تغرب على ماء ساكن",
+   "query": "calm lake sunset",
+   "alt_queries": [
+    "lake reflection",
+    "still water"
+   ],
+   "look": "dawn",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s03",
+   "at": {
+    "cue": 3
+   },
+   "desc": "مسجد عند الغسق",
+   "query": "mosque dusk",
+   "alt_queries": [
+    "mosque evening",
+    "mosque minaret sunset"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s04",
+   "at": {
+    "cue": 3,
+    "offset": 2.6
+   },
+   "desc": "طريق مستقيم في الصحراء (سفر)",
+   "query": "desert road",
+   "alt_queries": [
+    "desert sand dunes",
+    "caravan desert"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s05",
+   "at": {
+    "cue": 4
+   },
+   "desc": "مجرّة درب التبانة فوق مدرّجات ماء",
+   "query": "starry night sky",
+   "alt_queries": [
+    "night sky stars timelapse",
+    "milky way"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s06",
+   "at": {
+    "cue": 5
+   },
+   "desc": "قمر فوق بحيرة وقارب صغير بعيد",
+   "query": "moon clouds night",
+   "alt_queries": [
+    "full moon sky",
+    "moon timelapse"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s07",
+   "at": {
+    "cue": 6
+   },
+   "desc": "شروق على البحر",
+   "query": "sunrise sea",
+   "alt_queries": [
+    "sunrise ocean",
+    "sea sunrise horizon"
+   ],
+   "look": "dawn",
+   "transition": "cut",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s08",
+   "at": {
+    "cue": 7
+   },
+   "desc": "زخارف داخل مسجد",
+   "query": "mosque dome",
+   "alt_queries": [
+    "mosque architecture",
+    "mosque minaret"
+   ],
+   "look": "twilight",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s09",
+   "at": {
+    "cue": 8
+   },
+   "desc": "شمس فوق بحر من الضباب",
+   "query": "hands praying sunset",
+   "alt_queries": [
+    "praying hands silhouette",
+    "palms up sunset"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s10",
+   "at": {
+    "cue": 9
+   },
+   "desc": "مطر على زجاج نافذة",
+   "query": "rain window",
+   "alt_queries": [
+    "rain drops glass",
+    "raindrops window"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s11",
+   "at": {
+    "cue": 10
+   },
+   "desc": "قمم جبلية وغيوم",
+   "query": "mountain peak clouds",
+   "alt_queries": [
+    "majestic mountains",
+    "mountain clouds timelapse"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s12",
+   "at": {
+    "cue": 11
+   },
+   "desc": "غيوم تتحرك ببطء",
+   "query": "clouds timelapse sky",
+   "alt_queries": [
+    "clouds moving sky",
+    "sky clouds"
+   ],
+   "look": "dawn",
+   "transition": "dissolve"
+  },
+  {
+   "id": "s13",
+   "at": {
+    "cue": 12
+   },
+   "desc": "أوراق شجر في ضوء الشمس (بستان)",
+   "query": "orchard trees",
+   "alt_queries": [
+    "fruit garden",
+    "garden trees sunlight"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s14",
+   "at": {
+    "cue": 13
+   },
+   "desc": "نخلة وسماء غائمة دافئة",
+   "query": "palm trees oasis",
+   "alt_queries": [
+    "date palm",
+    "palm grove"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s15",
+   "at": {
+    "cue": 14
+   },
+   "desc": "سنابل قمح",
+   "query": "wheat field wind",
+   "alt_queries": [
+    "wheat field sunset",
+    "grain field"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s16",
+   "at": {
+    "cue": 15
+   },
+   "desc": "رجل يمشي من الخلف نحو الشمس (ظلّ بلا ملامح)",
+   "query": "man walking alone back view",
+   "alt_queries": [
+    "silhouette man walking",
+    "lonely man back view"
+   ],
+   "look": "neutral",
+   "transition": "dissolve",
+   "motion": {
+    "zoom": 0.05
+   }
+  },
+  {
+   "id": "s17",
+   "at": {
+    "cue": 16
+   },
+   "desc": "جدول ماء في غابة خريفية",
+   "query": "sunlight forest",
+   "alt_queries": [
+    "sun rays forest",
+    "forest morning light"
+   ],
+   "look": "dawn",
+   "transition": "cut"
+  },
+  {
+   "id": "s18",
+   "at": {
+    "cue": 17
+   },
+   "desc": "يد تكتب بقلم رصاص (بلا وجه)",
+   "query": "writing pen paper",
+   "alt_queries": [
+    "handwriting notebook",
+    "pen writing"
+   ],
+   "look": "neutral",
+   "transition": "cut"
+  },
+  {
+   "id": "s19",
+   "at": {
+    "cue": 17,
+    "offset": 2.76
+   },
+   "desc": "مصباح دافئ بين أوراق الشجر ليلاً",
+   "query": "lantern warm light",
+   "alt_queries": [
+    "islamic lantern",
+    "candle lantern night"
+   ],
+   "look": "twilight",
+   "transition": "cut"
+  },
+  {
+   "id": "s20",
+   "at": {
+    "cue": 18
+   },
+   "desc": "غروب على البحر",
+   "query": "sunset sky clouds",
+   "alt_queries": [
+    "sunset timelapse",
+    "golden sky"
+   ],
+   "look": "dawn",
+   "transition": "dissolve"
+  }
+ ]
+}
